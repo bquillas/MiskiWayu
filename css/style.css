@@ -1,0 +1,64 @@
+.wayu{
+    background-color: #86C341;
+}
+/*Nombre central de la página*/
+.wayunombre{
+    font-size: 720%;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.col-lg-3{ /*h1*/
+    margin-top: 90px;
+}
+
+/*Imagen del centro*/
+.img-fluid{
+    max-width: 93%;
+}
+
+/*boton  compre ahora
+.botoncompre{
+    background-color: #F68821;
+    font-size: 16px;
+    padding: 14px 40px;
+    border-radius: 8px;
+    width: 250px;
+}*/
+
+.botoncompre{
+margin: 5px;
+}
+.botoncompre {
+    display: inline-block;
+    border-radius: 8px;
+    background-color: #F68821;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 14px 40px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+.botoncompre{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+
+  
+  .botoncompre:hover span {
+    padding-right: 25px;
+  }
+  
+  .botoncompre:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
