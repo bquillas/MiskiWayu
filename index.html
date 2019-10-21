@@ -16,60 +16,105 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body class="wayu">
+<body class="">
   <!------Menú------>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-        <a class="navbar-brand" href="#">Misk'i Wayu</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <div class="navbar-nav ml-auto">
-                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="productos.html">Productos</a>
-                <a class="nav-item nav-link" href="recetas.html">Recetas</a>
-                <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
-                </div>
-            <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-warning" type="submit">¿Donde compro?</button>
-            </form>
-        </div>  
-    </div>
-  </nav>
+
   <!------Menú------>
   <!------Home----->
-  <div class="container">
-      <div class="row">
-          <!--Nombre-->
-          <div class="col-lg-3">
-                <h1 class="display-1 text-light font-weight-bolder mb-5">MISK'I WAYU</h1>
-                <form class="form-inline my-2 my-lg-0">
-                    <a href="productos.html" class="botoncompre" role="button" aria-pressed="true"><span>Compre Ahora</span></a>
-                    <!--<button class="botoncompre" style="vertical-align:middle"><span>Comprar</span></button>-->
-                </form>
-          </div>
-          <!--Nombre-->
+<!-- Main navigation -->
+<header>
 
-          <!--Imagenes Fruta-->
-          <div class="col-lg-4 my-5 pt-5">
-              <img src="img/vaso1.png" class="img-fluid mx-auto d-block" alt="Responsive image">                
+    <!--Navbar -->
+    <nav class="navbar navbar-expand-lg scrolling-navbar navbar-light z-depth-0 fixed-top">
+      <a class="navbar-brand" href="#">
+        <img src="img/Logo2.png" alt="mdb logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+        aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="productos.html">Productos</a>
+            <a class="nav-item nav-link" href="recetas.html">Recetas</a>
+            <a class="nav-item nav-link" href="nosotros.html">Nosotros</a>
           </div>
-          <!--Imagenes Fruta-->
-
-          <!--Imagenes Fruta-->
-          <div class="col-lg-5">
-            <img src="img/banner1.png" class="img-fluid float-right" alt="Responsive image">
-          </div>
-          <!--Imagenes Fruta-->
-
+          <form class="form-inline my-2 my-lg-0">
+          <button class="btn btn-warning" type="submit">¿Donde compro?</button>
+          </form>
+      </div>  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fab fa-pinterest-p"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fab fa-dribbble"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              <i class="fas fa-user"></i>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-info" aria-labelledby="navbarDropdownMenuLink-4">
+              <a class="dropdown-item" href="#">My account</a>
+              <a class="dropdown-item" href="#">Log out</a>
+            </div>
+          </li>
+        </ul>
       </div>
-  </div>
-
-  <div class="container">
-    <h2 class="text-center text-light font-weight-bold my-5">Gelatinas hechos de pura fruta, fortificado con cushuro.</h2>
-  </div>
+    </nav>
+    <!--/.Navbar -->
+  
+    <!-- Intro -->
+    <section class="view">
+  
+      <div class="row">
+  
+        <div class="col-md-6">
+  
+          <div class="d-flex flex-column justify-content-center align-items-center h-100">
+            <h1 class="heading display-3">Misk'i Wayu</h1>
+            <h4 class="subheading font-weight-bold">Gelatinas hechos de pura fruta fortificado con Nostoc (cushuro).</h4>
+            <div class="mr-auto">
+              <button type="button" class="btn btn-lily btn-margin btn-rounded">Comprar Ahora <i class="fas fa-caret-right ml-3"></i></button>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="col-md-6">
+  
+          <div class="view">
+            <img src="img/banner1.png" class="img-fluid" alt="smaple image">
+            <div class="mask flex-center hm-gradient">
+            </div>
+          </div>
+  
+        </div>
+  
+      </div>
+  
+    </section>
+    <!-- Intro -->
+  
+  </header>
+  <!-- Main navigation -->
   <!------Home------>
 
 
