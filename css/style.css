@@ -64,47 +64,47 @@ margin: 5px;
   }
 
   /*Main navigation*/
-  .navbar {
-    background: white;
-  }
-  .navbar:not(.top-nav-collapse) {
-    background: white;
-  }
-  .navbar .navbar-brand img {
-    height: 40px;
-    margin: 10px;
-  }
-  /*.hm-gradient {
-    background: linear-gradient(40deg, rgba(255, 235, 59, 0.7) , rgba(255, 235, 59, 0.1));
-  }*/
-  .heading {
-    margin: 0 6rem;
-    font-weight: 700;
-    color: #558b2f;
-  }
-  .subheading {
-    margin: 2.5rem 6rem;
-    color: #6eb468;
-  }
-  .btn.btn-margin {
-    margin-left: 6rem;
-    margin-top: 3rem;
-  }
-  /*.btn.btn-lily {
-    background: linear-gradient(40deg, rgba(0,51,199,.7), rgba(209,149,249,.7));
-  }*/
-  .title {
-    margin-top: 6rem;
-    margin-bottom: 2rem;
-    color: #079e28;
-  }
-  .subtitle {
-    color: #0bb937;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-bottom: 6rem;
-  }
+  /* Required for full background image */
 
-.img-fluid{
-    max-width: 85%;
+html,
+body,
+header,
+.view {
+height: 100%;
+}
+
+@media (max-width: 740px) {
+html,
+body,
+header,
+.view {
+height: 100vh;
+}
+}
+
+.top-nav-collapse {
+background-color: #6351ce !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+background: transparent !important;
+}
+
+@media (max-width: 991px) {
+.navbar:not(.top-nav-collapse) {
+background: #78909c !important;
+}
+}
+
+h1 {
+letter-spacing: 8px;
+}
+
+h5 {
+letter-spacing: 3px;
+}
+
+.hr-light {
+border-top: 3px solid #fff;
+width: 80px;
 }
