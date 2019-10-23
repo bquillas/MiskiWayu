@@ -92,7 +92,7 @@ background: transparent !important;
 
 @media (max-width: 991px) {
 .navbar:not(.top-nav-collapse) {
-background: #78909c !important;
+background: #6351ce !important;
 }
 }
 
@@ -107,4 +107,23 @@ letter-spacing: 3px;
 .hr-light {
 border-top: 3px solid #fff;
 width: 80px;
+}
+
+.rgba-black-light{
+  background-color: rgba(0,0,0,.2);
+}
+
+/*Contactanos*/
+.map-container-section {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container-section iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }

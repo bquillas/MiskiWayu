@@ -14,14 +14,15 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/styleprod.css" rel="stylesheet">
 </head>
 
-<body>
-  <!------Home----->
+<body class="">
+  <!------Menú------>
   <!-- Main navigation -->
-  <header>
+  <header style="height: 5%;">
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="background: #6351ce !important;">
       <div class="container">
         <a class="navbar-brand" href="#"><strong>Miski Wayu</strong></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
@@ -40,46 +41,128 @@
               <a class="nav-link" href="recetas.html">Recetas</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contactanos.html">Contactanos</a>
+              <a class="nav-link" href="contactanos.html">Contáctanos</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <!-- Navbar -->
-    <!-- Full Page Intro -->
-    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('img/FondoPrincipal.png'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
-      <!-- Mask & flexbox options-->
-      <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
-        <!-- Content -->
-        <div class="container">
-          <!--Grid row-->
-          <div class="row">
-            <!--Grid column-->
-            <div class="col-md-12 mb-4 white-text text-center">
-              <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown"
-                data-wow-delay="0.3s"><strong>Misk'i Wayu</strong></h1>
-              <hr class="hr-light my-4 wow fadeInDown" data-wow-delay="0.4s">
-              <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>Nutricíon divertida</strong></h5>
-              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Conocer más</a>
-              <a class="btn btn-outline-white wow fadeInDown" data-wow-delay="0.4s">Productos</a>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </div>
-        <!-- Content -->
-      </div>
-      <!-- Mask & flexbox options-->
-    </div>
-    <!-- Full Page Intro -->
   </header>
   <!-- Main navigation -->
-  <!------Home------>
+  <!------Menú-----======================================-->
 
+  <!------Sección de: ----->
+    <!-- Section: Contact v.1 -->
+    <section class="container my-5">
 
+        <!-- Section heading -->
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Contáctanos</h2>
+        <!-- Section description -->
+        <p class="text-center w-responsive mx-auto pb-5"></p>
 
-  <!-- Footer -->
+        <!-- Grid row -->
+        <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-lg-5 mb-lg-0 mb-4">
+
+            <!-- Form with header -->
+            <div class="card">
+            <div class="card-body">
+                <!-- Header -->
+                <div class="form-header blue accent-1" style="border-radius: .125rem; padding: 1rem;
+                margin-top: -3.13rem;
+                margin-bottom: 1rem;">
+                <h3 class="mt-2" style="color: white; text-align: center; "><i class="fas fa-envelope"></i> Escríbenos:</h3>
+                </div>
+                <p class="dark-grey-text">Nos estaremos comunicando contigo inmediatamente.</p>
+                <!-- Body -->
+                <div class="md-form">
+                <i class="fas fa-user prefix grey-text"></i>
+                <input type="text" id="form-name" class="form-control">
+                <label for="form-name">Tu nombre</label>
+                </div>
+                <div class="md-form">
+                <i class="fas fa-envelope prefix grey-text"></i>
+                <input type="text" id="form-email" class="form-control">
+                <label for="form-email">Tu correo</label>
+                </div>
+                <div class="md-form">
+                <i class="fas fa-tag prefix grey-text"></i>
+                <input type="text" id="form-Subject" class="form-control">
+                <label for="form-Subject">Título</label>
+                </div>
+                <div class="md-form">
+                <i class="fas fa-pencil-alt prefix grey-text"></i>
+                <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+                <label for="form-text">Mensaje</label>
+                </div>
+                <div class="text-center">
+                <button class="btn btn-light-blue">Enviar</button>
+                </div>
+            </div>
+            </div>
+            <!-- Form with header -->
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-lg-7">
+
+            <!--Google map-->
+            <div id="map-container-section" class="z-depth-1-half map-container-section mb-4" style="height: 400px">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2758.8293786583226!2d-76.95381892303683!3d-12.072809850311701!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1571847397504!5m2!1ses-419!2spe" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <!-- Buttons-->
+            <div class="row text-center">
+            <div class="col-md-4">
+                <a class="btn-floating accent-1">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x" style="color:#6351ce;"></i>
+                  <i class="fas fa-map-marker-alt fa-stack-1x fa-inverse"></i>
+                </span>
+                <!--<i class="fas fa-map-marker-alt" ></i>-->
+                </a>
+                <p>La Molina, Fontana 550</p>
+                <p class="mb-md-0">Lima, Perú</p>
+            </div>
+            <div class="col-md-4">
+                <a class="btn-floating accent-1">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x" style="color:#6351ce;"></i>
+                  <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
+                </span>
+                <!--<i class="fas fa-phone"></i>-->
+                </a>
+                <p>+ 01 234 567 89</p>
+                <p class="mb-md-0">Lun - Dom, 8:00-22:00</p>
+            </div>
+            <div class="col-md-4">
+                <a class="btn-floating accent-1">
+                <span class="fa-stack fa-2x">
+                  <i class="fas fa-circle fa-stack-2x" style="color:#6351ce;"></i>
+                  <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                </span>
+                <!--<i class="fas fa-envelope"></i>-->
+                </a>
+                <p>ventas@miskiwayu.com</p>
+                <p class="mb-0">tienda@miskiwayu.com</p>
+            </div>
+            </div>
+
+        </div>
+        <!-- Grid column -->
+
+        </div>
+        <!-- Grid row -->
+
+    </section>
+    <!-- Section: Contact v.1 -->
+  <!------Sección de: ------>
+
+  <!-- Footer -==========================================-->
   <footer class="page-footer font-small unique-color-dark">
 
       <div style="background-color: #6351ce;">
