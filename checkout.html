@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Misk'i Wayu</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/styleprod.css" rel="stylesheet">
+</head>
+
+<body class="">
+  <!------Menú------>
+  <!-- Main navigation -->
+  <header style="height: 5%;">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar" style="background: #6351ce !important;">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><strong>Miski Wayu</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7"
+          aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recetas.html">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactanos.html">Contáctanos</a>
+            </li>
+            <li class="nav-item active">
+                <a href="carro-de-compras.html" class="fb-ic">
+                  <i class="fas fa-shopping-cart red-text"> </i>
+                </a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+  </header>
+  <!-- Main navigation -->
+  <!------Menú-----======================================-->
+
+  <!------Sección de: Checkout----->
+  <div class="container card">
+    <div class="card-body">
+  
+      <!--Grid row-->
+      <div class="row">
+  
+        <!--Grid column-->
+        <div class="col-lg-8 mb-4">
+  
+          <!-- Pills navs -->
+          <ul class="nav md-pills nav-justified pills-primary font-weight-bold">
+            <li class="nav-item">
+              <a class="nav-link active" data-toggle="tab" href="#tabCheckoutBilling123" role="tab">1. Facturación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-toggle="tab" href="#tabCheckoutPayment123" role="tab">2. Pagos</a>
+            </li>
+          </ul>
+  
+          <!-- Pills panels -->
+          <div class="tab-content pt-4">
+  
+            <!--Panel 1-->
+            <div class="tab-pane fade in show active" id="tabCheckoutBilling123" role="tabpanel">
+  
+              <!--Card content-->
+              <form>
+  
+                <!--Grid row-->
+                <div class="row">
+  
+                  <!--Grid column-->
+                  <div class="col-md-6 mb-4">
+  
+                    <!--firstName-->
+                    <label for="firstName" class="">Nombres</label>
+                    <input type="text" id="firstName" class="form-control">
+  
+                  </div>
+                  <!--Grid column-->
+  
+                  <!--Grid column-->
+                  <div class="col-md-6 mb-2">
+  
+                    <!--lastName-->
+                    <label for="lastName" class="">Apellidos</label>
+                    <input type="text" id="lastName" class="form-control">
+  
+                  </div>
+                  <!--Grid column-->
+  
+                </div>
+                <!--Grid row-->
+  
+                <!--Username-->
+                <div class="input-group mb-4">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                  </div>
+                  <input type="text" class="form-control py-0" placeholder="Usuario" aria-describedby="basic-addon1">
+                </div>
+  
+                <!--email-->
+                <label for="email" class="">Email (opcional)</label>
+                <input type="text" id="email" class="form-control mb-4" placeholder="tue-mail@ejemplo.com">
+  
+                <!--address-->
+                <label for="address" class="">Dirección</label>
+                <input type="text" id="address" class="form-control mb-4" placeholder="Av. La Fontana">
+  
+                <!--address-2-->
+                <label for="address-2" class="">Dirección 2 (opcional)</label>
+                <input type="text" id="address-2" class="form-control mb-4" placeholder="Departamento o edificio">
+  
+                <!--Grid row-->
+                <div class="row">
+  
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-12 mb-4">
+  
+                    <label for="country">País</label>
+                    <select class="custom-select d-block w-100" id="country" required>
+                      <option value="">Escoger...</option>
+                      <option>Perú</option>
+                    </select>
+                    <div class="invalid-feedback">
+                      Porfavor, selecciona un país válido.
+                    </div>
+  
+                  </div>
+                  <!--Grid column-->
+  
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4">
+  
+                    <label for="state">Provincia</label>
+                    <select class="custom-select d-block w-100" id="state" required>
+                      <option value="">Escoger...</option>
+                      <option>Lima</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Porfavor, selecciona un distrito válido.
+                    </div>
+  
+                  </div>
+                  <!--Grid column-->
+  
+                  <!--Grid column-->
+                  <div class="col-lg-4 col-md-6 mb-4">
+  
+                    <label for="state">Distrito</label>
+                    <select class="custom-select d-block w-100" id="state" required>
+                      <option value="">Escoger...</option>
+                      <option>Villa el Salvador</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Porfavor, selecciona un distrito válido.
+                    </div>
+  
+                  </div>
+                  <!--Grid column-->
+  
+                </div>
+                <!--Grid row-->
+  
+                <hr>
+  
+                <div class="mb-1">
+                  <input type="checkbox" class="form-check-input filled-in" id="chekboxRules">
+                  <label class="form-check-label" for="chekboxRules">Acepto los términos y condiciones</label>
+                </div>
+                <div class="mb-1">
+                  <input type="checkbox" class="form-check-input filled-in" id="safeTheInfo">
+                  <label class="form-check-label" for="safeTheInfo">Guardar está informacion para la proxima compra</label>
+                </div>
+  
+                <hr>
+  
+                <button class="btn btn-primary btn-lg btn-block" type="submit">siguiente paso</button>
+  
+              </form>
+  
+            </div>
+            <!--/.Panel 1--> 
+ 
+            <!--Panel 2-->
+            <div class="tab-pane fade" id="tabCheckoutPayment123" role="tabpanel">
+  
+              <div class="d-block my-3">
+                <div class="mb-2">
+                  <input name="group2" type="radio" class="form-check-input with-gap" id="radioWithGap4" checked
+                    required>
+                  <label class="form-check-label" for="radioWithGap4">Tarjeta de Crédito</label>
+                </div>
+                <div class="mb-2">
+                  <input iname="group2" type="radio" class="form-check-input with-gap" id="radioWithGap5"
+                    required>
+                  <label class="form-check-label" for="radioWithGap5">Tarjeta de Débito</label>
+                </div>
+                <div class="mb-2">
+                  <input name="group2" type="radio" class="form-check-input with-gap" id="radioWithGap6" required>
+                  <label class="form-check-label" for="radioWithGap6">Depósito a cuenta de ahorro</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="cc-name123">Nombre de la tarjeta</label>
+                  <input type="text" class="form-control" id="cc-name123" placeholder="" required>
+                  <small class="text-muted">Nombre completo como se muestra en la tarjeta</small>
+                  <div class="invalid-feedback">
+                    Se requiere el nombre en la tarjeta
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="cc-number123">Número de la tarjeta de crédito</label>
+                  <input type="text" class="form-control" id="cc-number123" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Se requiere el número en la tarjeta
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-3">
+                  <label for="cc-expiration123">Expiración</label>
+                  <input type="text" class="form-control" id="cc-expiration123" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Se requiere la fecha de expriración
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="cc-cvv123">CVV</label>
+                  <input type="text" class="form-control" id="cc-cvv123" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Se requiere el código de seguridad
+                  </div>
+                </div>
+              </div>
+              <hr class="mb-4">
+  
+              <button class="btn btn-primary btn-lg btn-block" type="submit">Orden</button>
+  
+            </div>
+            <!--/.Panel 2-->
+  
+          </div>
+          <!-- Pills panels -->
+  
+  
+        </div>
+        <!--Grid column-->
+  
+        <!--Grid column-->
+        <div class="col-lg-4 mb-4">
+  
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Orden</button>
+  
+          <!--Card-->
+          <div class="card">
+  
+            <!--Card content-->
+            <div class="card-body">
+              <h4 class="mb-4 mt-1 h5 text-center font-weight-bold">Resumen</h4>
+  
+              <hr>
+  
+              <dl class="row">
+                <dd class="col-sm-8">
+                  Gelatina de Fresa
+                </dd>
+                <dd class="col-sm-4">
+                  S/. 4.00
+                </dd>
+              </dl>
+  
+              <hr>
+  
+              <dl class="row">
+                <dd class="col-sm-8">
+                  Gelatina de Mango
+                </dd>
+                <dd class="col-sm-4">
+                  S/. 3.50
+                </dd>
+              </dl>
+  
+              <hr>
+  
+              <dl class="row">
+                <dd class="col-sm-8">
+                  Gelatina de Naranja
+                </dd>
+                <dd class="col-sm-4">
+                  S/. 3.70
+                </dd>
+              </dl>
+  
+              <hr>
+  
+              <dl class="row">
+                <dt class="col-sm-8">
+                  Total
+                </dt>
+                <dt class="col-sm-4">
+                  S/. 11.30
+                </dt>
+              </dl>
+            </div>
+  
+          </div>
+          <!--/.Card-->
+  
+  
+  
+        </div>
+        <!--Grid column-->
+  
+      </div>
+      <!--Grid row-->
+  
+    </div>
+  </div>
+  <!------Sección de: Checkout------>
+
+  <!-- Footer -==========================================-->
+  <footer class="page-footer font-small unique-color-dark">
+
+      <div style="background-color: #6351ce;">
+        <div class="container">
+    
+          <!-- Grid row-->
+          <div class="row py-4 d-flex align-items-center">
+    
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+              <h6 class="mb-0">¡Conéctate con nosotros en las redes sociales!</h6>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-6 col-lg-7 text-center text-md-right">
+    
+              <!-- Facebook -->
+              <a class="fb-ic">
+                <i class="fab fa-facebook-f white-text mr-4"> </i>
+              </a>
+              <!-- Twitter -->
+              <a class="tw-ic">
+                <i class="fab fa-twitter white-text mr-4"> </i>
+              </a>
+              <!-- Google +-->
+              <a class="gplus-ic">
+                <i class="fab fa-google-plus-g white-text mr-4"> </i>
+              </a>
+              <!--Linkedin -->
+              <a class="li-ic">
+                <i class="fab fa-linkedin-in white-text mr-4"> </i>
+              </a>
+              <!--Instagram-->
+              <a class="ins-ic">
+                <i class="fab fa-instagram white-text"> </i>
+              </a>
+    
+            </div>
+            <!-- Grid column -->
+    
+          </div>
+          <!-- Grid row-->
+    
+        </div>
+      </div>
+    
+      <!-- Footer Links -->
+      <div class="container text-center text-md-left mt-5 ">
+    
+        <!-- Grid row -->
+        <div class="row mt-3 ">
+    
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+    
+            <!-- Content -->
+            <h6 class="text-uppercase font-weight-bold">Miski Wayu</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>Aquí encontrarás las mejores gelatinas hechos a base de frutas fortificados con Nostoc (cushuro), que ayudarán
+              a tus niños a proveer mas nutrientes como el hierro.</p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Productos</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="#!">Gelatinas</a>
+            </p>
+            <p>
+              <a href="#!">Gomitas</a>
+            </p>
+            <p>
+              <a href="#!">Leathers</a>
+            </p>
+            <p>
+              <a href="#!"></a>
+            </p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Enlaces útiles</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <a href="productos.html">Productos</a>
+            </p>
+            <p>
+              <a href="recetas.html">Recetas</a>
+            </p>
+            <p>
+              <a href="contactanos.html">Contáctanos</a>
+            </p>
+            <p>
+              <a href="ayuda.html">Ayuda</a>
+            </p>
+    
+          </div>
+          <!-- Grid column -->
+    
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4" style="margin-top: 0px;">
+    
+            <!-- Links -->
+            <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+            <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+            <p>
+              <i class="fas fa-home mr-3"></i> La Molina, Lima, PE</p>
+            <p>
+              <i class="fas fa-envelope mr-3"></i> ventas@miskiwayu.com</p>
+            <p>
+              <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p>
+              <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+    
+          </div>
+          <!-- Grid column -->
+    
+        </div>
+        <!-- Grid row -->
+    
+      </div>
+      <!-- Footer Links -->
+    
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://miskiwayu.com/"> MiskiWayu.com</a>
+      </div>
+      <!-- Copyright -->
+    
+  </footer>
+  <!-- Footer -->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script>
+    // Material Select Initialization
+    $(document).ready(function() {
+    $('.mdb-select').material_select();
+    });
+  </script>
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!--Animación de la web-->
+  <script>new WOW().init();</script>
+</body>
+
+</html>
